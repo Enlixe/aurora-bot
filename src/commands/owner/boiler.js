@@ -1,7 +1,7 @@
-const { Command } = global.Aurora;
+const { Command } = global.Hype;
 
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 

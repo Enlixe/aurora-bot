@@ -1,9 +1,9 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Command } = global.Aurora;
+const { Command } = global.Hype;
 const ChartJs = require('chart.js');
 const { createCanvas } = require('canvas');
 const moment = require('moment');

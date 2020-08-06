@@ -1,5 +1,5 @@
-/** 
- * @author ZYROUGE, Snowflake107
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 

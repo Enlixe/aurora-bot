@@ -1,3 +1,8 @@
+/**
+ * @author Enlixe#3991
+ * @license GPL-3.0
+*/
+
 const chalk = require("chalk");
 const fs = require("fs");
 const path = require("path");
@@ -8,10 +13,10 @@ const settings = yaml.parse(settingsFile);
 
 module.exports = () => {
     process.stdout.write(`${String.fromCharCode(160)}\n`);
-    process.stdout.write(`[${chalk.redBright("BOOT")}] Starting ${chalk.magentaBright(`Aurora v${pkg.version}`)}\n`);
+    process.stdout.write(`[${chalk.redBright("BOOT")}] Starting ${chalk.magentaBright(`HYPE v${pkg.version}`)}\n`);
     process.stdout.write(`${String.fromCharCode(160)}\n`);
-    process.stdout.write(`${chalk.gray(`</> Made by ZYROUGE | https://github.com/zyrouge`)}\n`);
-    process.stdout.write(`${chalk.gray(`[@] Source Code: https://github.com/zyrouge/aurora-bot`)}\n`);
+    process.stdout.write(`${chalk.gray(`</> Made by Enlixe | https://github.com/enlixe`)}\n`);
+    process.stdout.write(`${chalk.gray(`[@] Source Code: https://github.com/enlixe/`)}\n`);
     process.stdout.write(`${String.fromCharCode(160)}\n`);
     process.stdout.write(`[${chalk.redBright("BOOT")}] Environment - ${chalk.cyanBright(`${process.env.NODE_ENV || "unknown"}`)}\n`);
 

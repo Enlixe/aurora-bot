@@ -1,9 +1,9 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Command } = global.Aurora;
+const { Command } = global.Hype;
 var moment = require("moment");
 require("moment-duration-format");
 

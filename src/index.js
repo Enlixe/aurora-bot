@@ -1,5 +1,5 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
@@ -8,17 +8,20 @@ global.startTime = Date.now();
 require('dotenv').config();
 require('./Utils/Starter')();
 
-let Aurora;
+let Hype;
 try {
-    Aurora = require("aurora");
+    Hype = require("Hype");
 } catch(e) {
-    Aurora = require("../Aurora");
+    Hype = require("../Hype");
 }
 
-global.Aurora = Aurora;
+global.Hype = Hype;
 
-/* Aurora */
-const client = new Aurora.Client(require(`../config`).token, {
+/* Keep Alive */
+const keep_alive = require('../keep_alive.js')
+
+/* Hype */
+const client = new Hype.Client(require(`../config`).token, {
     firstShardID: 0,
     maxShards: "auto",
     messageLimit: 0,

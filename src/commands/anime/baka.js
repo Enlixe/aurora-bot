@@ -1,9 +1,9 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Command, Utils } = global.Aurora;
+const { Command, Utils } = global.Hype;
 const axios = require("axios");
 
 class _Command extends Command {
@@ -31,8 +31,8 @@ class _Command extends Command {
                 return responder.send({ embed: eEmbed });
             });
             if(!data || !data.url) return responder.send({ embed: eEmbed });
-            const embed = this.client.embeds.embed();
-            embed.description = translator.translate(message.author.mention, (args.join(" ") || "themselves"));
+            let embed = this.client.embeds.embed();//const embed = this.client.embeds.embed();
+            embed.description = translator.translate("BAKA_MSG", message.author.mention, (args.join(" ") || "themselves"));
             embed.image = {
                 url: data.url
             };

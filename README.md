@@ -1,23 +1,15 @@
-# Project currently on halt!
+# Project is currently on v0.0.7 Alpha !
 
-[![Hero](https://imgur.com/yTfSgds.png)](https://auroradiscordbot.ga)
-
-![Description](https://i.imgur.com/mcAE3nb.png)
-
-[![Add to Discord](https://imgur.com/hf2oXYR.png)](https://discord.com/oauth2/authorize?client_id=702808552892530829&permissions=2146827775&response_type=code&scope=bot)
-
-<br>
-<hr>
-<br>
+[![Hero](https://i.imgur.com/vuWT8f1.jpg)](https://google.com)
 
 # FAQ
 
-### Why is it open-sourced?
+### When You Make The Bot To Release Version ?
 
-Aurora is open-sourced to show the transparency of the bot! Also you guys can fix my mistakes in the code.
+Idk when but i will fastly Full release the Bot :)
 
-### Can I open pull requests?
+### When Is This Bot Can Play Song ?
 
-Yes, sure!
+Next Update ? Maybe ?
 
-### [Guide](https://guide.auroradiscordbot.ga "Guide")
+### [Support Server](https://discord.gg/GCyF49m "Support Server")

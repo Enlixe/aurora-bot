@@ -1,8 +1,8 @@
-const { Command } = global.Aurora;
+const { Command } = global.Hype;
 const { createCanvas, loadImage } = require("canvas");
 
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 

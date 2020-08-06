@@ -1,11 +1,11 @@
-/** 
- * @author ZYROUGE, Snowflake107
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
 const Utils = {
     emojis: require("../../../Utils/Emojis")
-}; // require("aurora") will return an empty object due to NodeJS file system
+}; // require("Hype") will return an empty object due to NodeJS file system
 
 module.exports = {
     PREFIX_CHANGE:          (PREFIX) => `Prefix has been changed to \`${PREFIX}\``,

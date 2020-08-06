@@ -1,9 +1,9 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Utils } = global.Aurora;
+const { Utils } = global.Hype;
 
 const AFKDisplayer = async (client, message, responder, translator) => {
     return new Promise(async (resolve, reject) => {

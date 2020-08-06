@@ -1,9 +1,9 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Responder, Translator } = global.Aurora;
+const { Responder, Translator } = global.Hype;
 const Eris = require("eris");
 const argsParser = require('command-line-args');
 const path = require("path");

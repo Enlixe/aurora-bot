@@ -1,9 +1,9 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Command, Responder } = global.Aurora;
+const { Command, Responder } = global.Hype;
 const axios = require("axios");
 
 class _Command extends Command {

@@ -1,5 +1,5 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
@@ -31,13 +31,13 @@ const web = async ({
         store: new MemoryStore({
             checkPeriod: 86400000
         }),
-        secret: 'AuroraDiscordBot',
+        secret: 'HypeDiscordBot',
         resave: false,
         saveUninitialized: false
     }));
 
     server.use((req, res, next) => {
-        req.aurora = client;
+        req.hype = client;
         next();
     });
 

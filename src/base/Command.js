@@ -1,5 +1,5 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
@@ -93,7 +93,7 @@ class Command {
                         `\`\`\`js`,
                         `${this.client.config.prefix}${this.conf.name} ${this.conf.usage}`,
                         `${!subCommands.length
-                            ? `@Aurora ${this.conf.name} ${this.conf.usage}`
+                            ? `@Hype ${this.conf.name} ${this.conf.usage}`
                             : `${subCommands.join("\n")}`}`,
                         `\`\`\``
                     ].join("\n"),

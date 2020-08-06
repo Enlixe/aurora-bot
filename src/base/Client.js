@@ -1,11 +1,11 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
 const { Client, Collection } = require("eris-additions")(require("eris"));
 
-class Aurora extends Client {
+class Hype extends Client {
     constructor(token, options = {}) {
         if(!token || !options) throw new Error(`No Token was Found!`);
         super(token, options);
@@ -63,4 +63,4 @@ class Aurora extends Client {
     }
 }
 
-module.exports = Aurora;
+module.exports = Hype;

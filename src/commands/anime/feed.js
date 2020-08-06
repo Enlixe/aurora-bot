@@ -1,9 +1,9 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Command, Utils } = global.Aurora;
+const { Command, Utils } = global.Hype;
 const axios = require("axios");
 
 class _Command extends Command {

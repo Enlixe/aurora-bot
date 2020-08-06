@@ -1,9 +1,9 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Command } = global.Aurora;
+const { Command } = global.Hype;
 const _ = require("lodash");
 class _Command extends Command {
     constructor (client) {
@@ -112,7 +112,7 @@ class _Command extends Command {
         }
     }
 
-    async getEmbed(pages, currentPage) {
+    async getEmbed(pages, currentPage ) {
         const fields = new Array();
         pages[currentPage].items.forEach(item => {
             let value = [

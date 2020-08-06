@@ -1,11 +1,11 @@
-/** 
- * @author Snowflake107
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
 const Utils = {
     emojis: require("../../../Utils/Emojis")
-}; // require("aurora") will return an empty object due to NodeJS file system
+}; // require("Hype") will return an empty object due to NodeJS file system
 
 module.exports = {
     COMMAND_DISABLED: (COMMAND) => `आदेश \`${COMMAND}\`को प्रयोगलाई यो सन्जालमा निषेध गरिएको छ।`,

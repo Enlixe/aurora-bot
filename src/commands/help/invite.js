@@ -1,15 +1,15 @@
-/** 
- * @author ZYROUGE
+/**
+ * @author Enlixe#3991
  * @license GPL-3.0
 */
 
-const { Command } = global.Aurora;
+const { Command } = global.Hype;
 
 class _Command extends Command {
     constructor (client) {
         super(client, {
             name: "invite",
-            description: "Aurora Invite Link.",
+            description: "Hype Invite Link.",
             usage: "",
             guildOnly: false,
             aliases: ["botinfo"],

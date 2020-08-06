@@ -1,6 +1,6 @@
 {
-  "name": "aurora-bot",
-  "version": "0.0.5-alpha",
+  "name": "HYPE-Bot",
+  "version": "0.0.7-alpha",
   "description": "Best Bot in Discord!",
   "main": "src/index.js",
   "scripts": {
@@ -10,13 +10,13 @@
   "keywords": [
     "discord"
   ],
-  "author": "ZYROUGE",
+  "author": "Enlixe",
   "license": "GPL-3.0",
   "engines": {
     "node": "12.x"
   },
   "dependencies": {
-    "aurora": "file:Aurora",
+    "aurora": "file:Hype",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "canvas": "^2.6.1",
@@ -46,9 +46,5 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zyrouge/aurora-bot.git"
   }
 }
