@@ -7,7 +7,7 @@ const { Client, Collection } = require("eris-additions")(require("eris"));
 
 class Hype extends Client {
     constructor(token, options = {}) {
-        if(!token || !options) throw new Error(`No Token was Found!`);
+        //if(!token || !options) throw new Error(`No Token was Found!`);
         super(token, options);
         this.commands = new Collection();
         this.aliases = new Collection();

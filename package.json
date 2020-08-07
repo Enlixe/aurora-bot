@@ -16,7 +16,7 @@
     "node": "12.x"
   },
   "dependencies": {
-    "aurora": "file:Hype",
+    "Hype": "file:Aurora",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "canvas": "^2.6.1",
